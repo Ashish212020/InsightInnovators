@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #28a745, #ffffff);
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+header {
+    background: linear-gradient(45deg, #28a745, #28a745, #fff);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    background: -webkit-linear-gradient(#fff, #28a745);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+#team ul {
+    list-style: none;
+    padding: 0;
+}
+
+#team li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#team img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid #28a745;
+}
+
+#team span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#sales-data, #expenses {
+    text-align: center;
+}
+
+#salesChart, #expensesChart {
+    max-width: 600px;
+    max-height: 400px;
+    margin: 0 auto;
+}
+
+footer {
+    background: #28a745;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
